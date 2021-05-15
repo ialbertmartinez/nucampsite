@@ -37,3 +37,12 @@ header h2 {
 	 color: inherit;
 	 text-decoration: none;
  }
+
+ /* add border around carousel, add half-transparent bg to captions */
+ .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    border: solid #5637DD;
+}
