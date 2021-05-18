@@ -47,6 +47,7 @@ header h2 {
     border: solid #5637DD;
 }
 
+/* my custom css to match youtube-icon with bootstraap-social icons */
 a.btn.btn-social-icon.btn-youtube {
 	background-color: #f00;
 }
@@ -54,3 +55,4 @@ a.btn.btn-social-icon.btn-youtube {
 a.btn.btn-social-icon.btn-youtube > i {
 	color: white;
 }
+
