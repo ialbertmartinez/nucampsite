@@ -46,3 +46,11 @@ header h2 {
 .carousel {
     border: solid #5637DD;
 }
+
+a.btn.btn-social-icon.btn-youtube {
+	background-color: #f00;
+}
+
+a.btn.btn-social-icon.btn-youtube > i {
+	color: white;
+}
