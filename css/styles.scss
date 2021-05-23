@@ -1,6 +1,7 @@
 $color-primary: #3046C5;
 $color-secondary: #5637dd;
 $color-pale: #cec8ff;
+$color-teal: #17A2B8;
 $color-mid: #901cad;
 $color-dark: #60106b;
 $color-black-transparent: rgba(0, 0, 0, 0.5);
@@ -59,12 +60,14 @@ header {
 }
 
 /* my custom css to match youtube-icon with bootstrap-social icons */
-a.btn.btn-social-icon.btn-youtube {
+a.btn-youtube {
 	background-color: #f00;
 }
 
-a.btn.btn-social-icon.btn-youtube > i {
+a.btn-youtube > i {
 	color: white;
+	width: 50%;
+	height: auto;
 }
 
 /* Position carousel play & pause btns */
@@ -74,3 +77,23 @@ a.btn.btn-social-icon.btn-youtube > i {
 	bottom: 0;
 	z-index: 100;
 }
+
+#reserveModal {
+	.modal-header {
+		background-color: $color-teal;
+		h3 {
+			color: white;
+		}
+	}
+}
+
+#loginModal {
+	.modal-header {
+		background-color: $color-mid;
+		h3 {
+			color: white;
+
+		}
+	}
+}
+

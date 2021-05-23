@@ -39,15 +39,28 @@ a, a:hover {
 .carousel {
   border: solid #5637dd; }
 
-/* my custom css to match youtube-icon with bootstraap-social icons */
-a.btn.btn-social-icon.btn-youtube {
+/* my custom css to match youtube-icon with bootstrap-social icons */
+a.btn-youtube {
   background-color: #f00; }
 
-a.btn.btn-social-icon.btn-youtube > i {
-  color: white; }
+a.btn-youtube > i {
+  color: white;
+  width: 50%;
+  height: auto; }
 
+/* Position carousel play & pause btns */
 #carouselButton {
   position: absolute;
   right: 0;
   bottom: 0;
   z-index: 100; }
+
+#reserveModal .modal-header {
+  background-color: #17A2B8; }
+  #reserveModal .modal-header h3 {
+    color: white; }
+
+#loginModal .modal-header {
+  background-color: #901cad; }
+  #loginModal .modal-header h3 {
+    color: white; }
